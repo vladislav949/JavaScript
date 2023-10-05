@@ -8,7 +8,7 @@
   height: 50px;
   line-height: 50px;
   border-radius: 50%;
-  position: absolute; 
+  position: absolute;
   left: 10px;
   top: 5px;
 }
@@ -24,7 +24,7 @@ position: static; margin-left: 0; margin-right: 0;}
 #footer {}
 
 #nav { /* меню сайта (навигация) */
-  list-style: none; /* нет порядкового номера и разметки списка (кружки и тд.) */
+  list-style: none; /* нет порядкового номера и разметки списка (кружки и тд.)*/
   display: block;
   float:left;
   width: 50%;
@@ -34,7 +34,7 @@ position: static; margin-left: 0; margin-right: 0;}
 }
 
 #nav li {
-  display: inline;; /* каждый элемент в списке будет строчным */
+  display: inline; /* каждый элемент в списке будет строчным */
   background: #fafafa;
   border: 1px solid silver;
   padding: 0 20px;
@@ -49,5 +49,34 @@ position: static; margin-left: 0; margin-right: 0;}
 }
 
 #nav li:not(:last-of-type) { /*все кроме последнего */
+  margin-right: 20px;
+}
+
+#nav1 { /* меню сайта (навигация) */
+  list-style: none; /* нет порядкового номера и разметки списка (кружки и тд.)*/
+  display: block;
+  float:left;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#nav1 li {
+  display: inline; /* каждый элемент в списке будет строчным */
+  background: #fafafa;
+  border: 1px solid silver;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+#nav1 li:hover {
+  color: #f7ffbf;
+  background: #333;
+  border-radius: 5px;
+  border-color: #333;
+}
+
+#nav1 li:not(:last-of-type) { /*все кроме последнего */
   margin-right: 20px;
 }
